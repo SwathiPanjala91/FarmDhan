@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "FarmDhan",
+    "slug": "farmdhan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#2E7D32"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2E7D32"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.farmdhan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
