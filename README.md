@@ -96,21 +96,15 @@ npx expo start
 
 ---
 
-## 👤 Demo Login Credentials
+## 🔐 Authentication
 
-For testing and demonstration, pre-seeded accounts are provided:
+FarmDhan uses secure JWT-based authentication with OTP verification.
 
-### 🌾 Farmer Account
-- **Phone**: `9876543210`
-- **Password**: `password123`
-- **Name**: Ramesh Patel (Hanamkonda, Warangal)
-- **Profile**: 6.5 acres land, has 8.5 tons of Paddy Straw listed, received 2 buyer offers.
+Users can register and authenticate as:
+- 🌾 Farmer
+- 🏭 Buyer
 
-### 🏭 Buyer Account
-- **Phone**: `9123456701`
-- **Password**: `password123`
-- **Name**: Deccan Green Energy Ltd (Pellet Manufacturer)
-- **Profile**: Procuring 250 tons, offered ₹2,650/ton, service radius 45 km.
+No default demo accounts or hardcoded user credentials are included.
 
 ---
 
